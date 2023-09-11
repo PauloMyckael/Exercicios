@@ -2,7 +2,7 @@ const fruit = "Banana"
 
 const price = 4.30
 const take = true 
-let newValor // culpa do lula
+let newValor // Culpa do lula
 
 console.log("O tipo da const 'fruit' é: " + typeof fruit)
 console.log("O tipo da const 'price' é: " + typeof price)
