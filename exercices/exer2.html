@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de pagamento - </title>
+</head>
+<body>
+    <script>
+        const preco = Number(prompt("Qual o preço da peça?: "))
+        const aVista = Number(preco) * 0.90
+        const parcelado = Number(preco) / 4
+
+        alert(`Preco do produto: R$ ${preco.toFixed(2)}\nPreco a vista: R$ ${aVista.toFixed(2)}\nPreco parcelado em 4x: R$ ${parcelado.toFixed(2)}`)
+    </script>
+
+    <h1>Preço do produto</h1>
+    <h2>Pagamento a vista com desconto e parcelado</h2>
+
+</body>
+</html>
