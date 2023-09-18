@@ -1,1 +1,1 @@
-# Realização dos exercícios do livro
+# Realização de exercícios JS
